@@ -43,7 +43,7 @@ print(df)
 
 print("Leer archivos Ventas.csv")
 
-Pyventas = pd.read_csv("Ventas.csv")
+Pyventas = pd.read_csv("Ventas.csv", sep=";")
 
 print(Pyventas)
 
