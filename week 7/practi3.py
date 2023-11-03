@@ -28,7 +28,7 @@ def obtener_urls_relevantes_ddg(consulta, num_resultados):
 # Ejemplo de consulta
 
 consulta = input("Ingresa tu consulta: ")
-num_resultados = 2
+num_resultados = 10
 
 # Obtener URLs relevantes de Google
 urls_relevantes_google = obtener_urls_relevantes_google(consulta, num_resultados)
